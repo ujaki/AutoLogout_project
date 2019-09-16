@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>자동 퇴실</title>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Londrina+Solid" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+    <header>
+        <h1>자동 퇴실</h1>
+        <img class="logo" src="img/logo.png" alt="AutoRefresh logo" />
+    </header>
+    <div id="time">
+        <h2>퇴실 시간 설정</h2>
+        <section>
+            <input type="number" value="1" min="1" max="24" id="hours" step="1" pattern="\d+" placeholder="1" />
+            <span class="label">시</span>
+        </section>
+        <section>
+            <input type="number" value="1" min="1" max="59" id="minutes" step="1" pattern="\d+" placeholder="1" />
+            <span class="label">분</span>
+        </section>
+        <section>
+            <input type="number" value="1" min="1" max="59" id="seconds" step="1" pattern="\d+" placeholder="1" />
+            <span class="label">초</span>
+        </section>
+        <!-- <section>
+            <label><input type="checkbox" id="colors" /><span class="cblabel">activate colors</span></label>
+        </section> -->
+    </div>
+    <section class="btns">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <span class="label"></span>
+    </section>
+    <!-- <div class="options-link">
+        <i class="fas fa-home" title="Dashboard"></i>
+    </div> -->
+
+</body>
+
+</html>

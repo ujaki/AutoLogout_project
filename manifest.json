@@ -1,0 +1,27 @@
+{
+    "author": "SiHo Ryu",
+    "manifest_version": 2,
+    "name": "Auto Logout",
+    "description": "This extension is for logging out from the Edu SSAFY at 6pm automatically",
+    "version": "0.1",
+    "icons": {
+        "128": "img/logout_128.png",
+        "48": "img/logout_48.png",
+        "16": "img/logout_16.png"
+    },
+    "browser_action": {
+        "default_icon": "img/logout_32.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["js/background.js", "js/jquery.js"],
+        "persistant": false
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "notifications",
+        "<all_urls>"
+    ]
+}

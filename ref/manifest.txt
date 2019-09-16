@@ -1,0 +1,37 @@
+{background: {・}, browser_action: {・}, content_security_policy: "script-src 'self' 'unsafe-eval' https://www.google・https://static.trckingbyte.com; object-src 'self'", description: "Auto Refresh is the best extension to refresh on a timer", icons: {・}, ・}
+background:
+page: "background.html"
+__proto__: Object
+browser_action:
+default_icon: "icon_g.png"
+default_popup: "popup.html"
+default_title: "Auto Refresh"
+__proto__: Object
+content_security_policy: "script-src 'self' 'unsafe-eval' https://www.google-analytics.com https://static.trckingbyte.com; object-src 'self'"
+description: "Auto Refresh is the best extension to refresh on a timer"
+icons:
+16: "icon_g.png"
+48: "icon_g.png"
+128: "icon_g.png"
+__proto__: Object
+key: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnXJyZwV7808g4kqgG50kpnFezTLWG3m6cfq7EaRIF50EWFpn0viMPhBD5h3qHWxKt4wRyKf8iWdjnZ6zJsDRgXnG3nD0ZSuN4HmFB7rzBSqPW4EaWIEolXYtSKKCuTaf2Q/ClbpLB31mZx/nXdIfAArxZAUaXnx5YX7LYKMNWiXbNwxd7RukEo3KPGAZCvzdliCOj9lkgocG4mnJ8fDtpX5bwnRqVb846DWzr03JG8rIQxQgkKbg3orDCCuww6kvrbrOT/k0RZ4ohMDW7wR3vmCrRhQ6W1JnxFNxZxIPzF+QjCMtSIH0pPHTeCckcz5o8iBCi2ocV+8U6CYp7LV5lQIDAQAB"
+manifest_version: 2
+name: "Auto Refresh"
+options_ui:
+open_in_tab: true
+page: "options.html"
+__proto__: Object
+permissions: Array(8)
+0: "tabs"
+1: "activeTab"
+2: "storage"
+3: "unlimitedStorage"
+4: "cookies"
+5: "<all_urls>"
+6: "webRequest"
+7: "webRequestBlocking"
+length: 8
+__proto__: Array(0)
+update_url: "https://clients2.google.com/service/update2/crx"
+version: "1.3.12"
+__proto__: Object
